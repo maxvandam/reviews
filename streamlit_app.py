@@ -13,7 +13,7 @@ import plotly.graph_objects as go
 # import gzip
 
 
-movieDF = pd.read_csv('moviereviews.csv')
+movieDF = pd.read_csv('moviereviews.csv',encoding = "ISO-8859-1")
 
 movieDF.head()
 
